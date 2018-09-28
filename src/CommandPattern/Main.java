@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class Main {
     private Invoker invoker;
-    private List<Command> commandList;
+    private List<Command> commandList = new ArrayList<>();
 
     public static void main(String[] args) {
         Main client = new Main();
@@ -27,16 +27,17 @@ public class Main {
 
     public void run() {
         Receiver receiver1 = new LightReceiverImpl("Flash Light");
-        Command command = new TurnOnCommandImpl(receiver1);
-        commandList = new ArrayList<>();
-        commandList.add(command);
+        Receiver receiver2 = new MotorReceiverImpl("Water Motor");
 
-        invoker= new Invoker(command);
+        Command command = new TurnOnCommandImpl(receiver1);
+        Command command2 = new TurnOnCommandImpl(receiver2);
+
+        commandList.add(command);
+        commandList.add(command2);
+
+        invoker = new Invoker(command);
         invoker.executeCommand();
 
-        Receiver receiver2 = new MotorReceiverImpl("Water Motor");
-        Command command2 = new TurnOnCommandImpl(receiver2);
-        commandList.add(command2);
         invoker = new Invoker(command2);
         invoker.executeCommand();
 
