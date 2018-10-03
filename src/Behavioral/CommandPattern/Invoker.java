@@ -1,6 +1,6 @@
-package CommandPattern;
+package Behavioral.CommandPattern;
 
-import CommandPattern.command.Command;
+import Behavioral.CommandPattern.command.Command;
 
 public class Invoker {
 

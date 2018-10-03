@@ -1,4 +1,4 @@
-package CommandPattern.receiver;
+package Behavioral.CommandPattern.receiver;
 
 public class MotorReceiverImpl extends Receiver {
     public MotorReceiverImpl(String name) {

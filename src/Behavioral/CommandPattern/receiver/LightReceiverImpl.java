@@ -1,4 +1,4 @@
-package CommandPattern.receiver;
+package Behavioral.CommandPattern.receiver;
 
 public class LightReceiverImpl extends Receiver {
     public LightReceiverImpl(String name) {

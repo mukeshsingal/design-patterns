@@ -1,4 +1,4 @@
-package TemplatePattern;
+package Behavioral.TemplatePattern;
 
 public class SimplePizzaMaker extends PizzaMaker {
     @Override

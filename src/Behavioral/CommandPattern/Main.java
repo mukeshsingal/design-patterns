@@ -1,11 +1,11 @@
-package CommandPattern;
+package Behavioral.CommandPattern;
 
 
-import CommandPattern.command.Command;
-import CommandPattern.command.TurnOnCommandImpl;
-import CommandPattern.receiver.LightReceiverImpl;
-import CommandPattern.receiver.MotorReceiverImpl;
-import CommandPattern.receiver.Receiver;
+import Behavioral.CommandPattern.command.Command;
+import Behavioral.CommandPattern.command.TurnOnCommandImpl;
+import Behavioral.CommandPattern.receiver.LightReceiverImpl;
+import Behavioral.CommandPattern.receiver.MotorReceiverImpl;
+import Behavioral.CommandPattern.receiver.Receiver;
 
 import java.util.ArrayList;
 import java.util.List;

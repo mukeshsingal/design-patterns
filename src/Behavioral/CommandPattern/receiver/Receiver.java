@@ -1,4 +1,4 @@
-package CommandPattern.receiver;
+package Behavioral.CommandPattern.receiver;
 
 public abstract class Receiver {
     protected String name;

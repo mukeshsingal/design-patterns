@@ -1,6 +1,6 @@
-package CommandPattern.command;
+package Behavioral.CommandPattern.command;
 
-import CommandPattern.receiver.Receiver;
+import Behavioral.CommandPattern.receiver.Receiver;
 
 public class TurnOnCommandImpl implements Command {
     private Receiver receiver;

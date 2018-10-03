@@ -1,4 +1,4 @@
-package CommandPattern.command;
+package Behavioral.CommandPattern.command;
 
 public interface Command {
     void execute();
