@@ -5,7 +5,7 @@ package Structural.AdapterPattern;
  * Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
  * 2. Wrap an existing class with a new interface.
  * Impedance match an old component to a new system
- * <p>
+ *
  * Problem
  * An "off the shelf" component offers compelling functionality that you would like to reuse,
  * but its "view of the world" is not compatible with the philosophy and architecture of the
