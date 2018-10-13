@@ -1,5 +1,6 @@
 package Creational.AbstractFactoryPattern.products;
 
+
 public class DominosFoodMenu extends FoodMenu {
     public DominosFoodMenu(String menuStyle) {
         super(menuStyle);
